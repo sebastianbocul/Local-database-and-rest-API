@@ -10,8 +10,7 @@ public class RecipeListViewModel extends AndroidViewModel {
     private static final String TAG = "RecipeListViewModel";
 
     public enum ViewState {CATEGORIES, RECIPES}
-
-    ;
+    
     private MutableLiveData<ViewState> viewState;
 
     public RecipeListViewModel(@NonNull Application application) {
